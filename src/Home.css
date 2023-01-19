@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  overflow-x: hidden;
+
+}
+
+.navbar{
+  background-color: #fff !important;
+ 
+}
+.container-fluid{
+  margin-left: 2cm;
+}
+.navbar-brand{
+  color: #8790e7 !important;
+  font-size: 1.5rem !important;
+  padding-right: 35px !important;
+  
+}
+.home_container {
+  display: flex;
+  margin-left: 4.6cm;
+  margin-top: 5cm;
+}
+.home_container .home_title{
+  font-family: 'Roboto',sans-serif;
+  padding: 10px;
+}
+
+.home_container .home_title h1 span{
+  color: #8790e7;
+}
+.home_container .home_title .getstart{
+  border: 2px solid #8790e7;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 7px 30px;
+  letter-spacing: 1px;
+  color: #565387;
+}
+.home_container .home_title .getstart:hover{
+  background-color: #8790e7;
+  color: #fff;
+  transition: ease 0.5s;
+  border: 2px solid #8790e7;
+}
+.home_container .skyback{
+  width: 18cm;
+  height: auto;
+  position: absolute;
+  margin-left: 13cm;
+  margin-top: -5.5cm;
+}
+
+.home_container .rocket{
+  width: 5cm;
+  height: auto;
+  position: absolute;
+  margin-left: 19.8cm;
+  margin-top: -8cm;
+
+}
+
+#rocket{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(30px);
+  }
+  100%{
+    transform: translateY(-30px);
+  }
+}
+.copyright{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright p{
+  font-family: 'Roboto'sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 96%;
+  background-color: rgba(179, 253, 228, 0.675);
+  width: 100vw;
+}
+.copyright p span{
+  cursor: pointer;
+}
+.copyright p span:hover{
+ color:  #8790e7;
+  
+}
+
+

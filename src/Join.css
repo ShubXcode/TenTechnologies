@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+.about_container {
+    display: flex;
+    margin-left: 4.6cm;
+    margin-top: 5cm;
+  }
+  .about_container .about_title{
+    font-family: 'Roboto',sans-serif;
+    padding: 10px; 
+  }
+  .about_container .about_title p{
+    margin-top: 5px;
+  }
+  .about_container .about_title h1 span{
+    color: #8790e7;
+  }
+  .about_container .about_title p span{
+    color: #8790e7;
+  }
+ 
+  .about_container .about_title .social_media a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  
+  .about_container .aboutus{
+      width: 15cm;
+      height: auto;
+      position: absolute;
+      margin-left: 16cm;
+      margin-top: -4cm;
+    }
+  
+  /* .service_container .service_title .letgo{
+    border: 2px solid #8790e7;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 7px 30px;
+    letter-spacing: 1px;
+    color: #565387;
+    cursor: pointer;
+  }
+  .service_container .service_title .letgo:hover{
+    background-color: #8790e7;
+    color: #fff;
+    transition: ease 0.5s;
+    border: 2px solid #8790e7;
+  } */

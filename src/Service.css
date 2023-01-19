@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+/* Service Styling start */
+
+.service_container {
+  display: flex;
+  margin-left: 4.6cm;
+  margin-top: 5cm;
+  
+}
+.service_container .service_title{
+  font-family: 'Roboto',sans-serif;
+  padding: 10px;
+  
+}
+.home_container .home_title p{
+  margin-top: 5px;
+  
+}
+.service_container .service_title h1 span{
+  color: #8790e7;
+  
+}
+
+.service_container .servicemain{
+    width: 18cm;
+    height: auto;
+    position: absolute;
+    margin-left: 12cm;
+    margin-top: -8cm;
+  }
+
+.service_container .service_title .letgo{
+  border: 2px solid #8790e7;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 7px 30px;
+  letter-spacing: 1px;
+  color: #565387;
+  cursor: pointer;
+}
+.service_container .service_title .letgo:hover{
+  background-color: #8790e7;
+  color: #fff;
+  transition: ease 0.5s;
+  border: 2px solid #8790e7;
+}
+
+.our_service{
+    margin-top: 6cm;
+    text-align: center;
+    margin-bottom: 1cm;
+}
+.our_service span{
+    color: #8790e7;
+}
+
+
+
+/* servive card */
+
+.card_box{
+    display: flex;
+    justify-content: center;
+  }
+  .card_box .card:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  }
+  .card{
+    width: 24rem;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  .card_box .card .card-body .btn{
+    border-radius: 30px;
+    background-color: #8790e7;
+    border: 2px solid #8790e7;
+    padding: 7px 30px;
+  }
+
+  .card_box .card .card-body .btn:hover{
+    background-color: #fff;
+    color: #565387;
+  }
+
+  #data{
+    width: 8cm;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  #growth{
+    width: 7cm;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+  #stock{
+    width: 7cm;
+    height: auto;
+    margin-left: 55px;
+  }
+
+  .service_copyright{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.5cm;
+  }
+  
+  .service_copyright p{
+    font-family: 'Roboto'sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 230%;
+    background-color: rgba(179, 253, 228, 0.675);
+    width: 100vw;
+  }
+  .service_copyright p span{
+    cursor: pointer;
+  }
+  .service_copyright p span:hover{
+   color:  #8790e7;
+    
+  }

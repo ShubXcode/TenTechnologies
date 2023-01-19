@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+.contact_container {
+    display: flex;
+    margin-left: 4.6cm;
+    margin-top: 2cm;
+    
+  }
+  .contact_container .contact_title{
+    font-family: 'Roboto',sans-serif;
+    padding: 10px; 
+  }
+  .contact_container .contact_title p{
+    margin-top: 5px;
+    
+  }
+  .contact_container .contact_title h1 span{
+    color: #8790e7;
+    
+  }
+
+  .contact_container .contact_title .input{
+    margin-bottom: 10px;
+    width: 11cm;
+    height: 1cm;
+    border-radius: 20px;
+    border: 1px solid #8790e7;
+    outline: none;
+    padding-left: 0.5cm;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+.contact_container .contact_title .textarea{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #8790e7;
+    outline: none;
+    padding: 7px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+.contact_container .contact_title .send{
+    padding: 7px 30px;
+    border: 2px solid #8790e7;
+    background-color: #8790e7;
+    color: #fff;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    margin-left: 3cm;
+    outline: none;
+  }
+  .contact_container .contact_title .send:hover{
+    color: #565387;
+    background-color: #fff;
+    transition: 0.3s ease-in;
+  }
+
+  ::placeholder {
+    color: #939393;
+    font-size: 12px;
+    }
+
+  .contact_container .contact_image{
+      width: 15cm;
+      height: auto;
+      position: absolute;
+      margin-left: 16cm;
+      /* margin-top: -cm; */
+    }
+   
